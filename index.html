@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="assets/favicon.ico">
+    <title>cv</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="container main-container">
+            <div class="section section-profile" id="profile">
+              <img src="./assets/img/logo.jpg" alt="logo" class="section-profile-logo">
+              <div class="section-profile-title">
+                <div class="first-title">
+                    <p><span style="color:red">&lt;</span>?php</p>
+                </div>
+                    <p><span style="color:rgb(0, 223, 223)">$name</span> = Egor Strikharchuk</p>
+                    <p><span style="color:rgb(0, 223, 223)">$profession</span> = Junior Front-End Developer</p>
+                <div class="second-title">  
+                    <p>?<span style="color:red">></span></p>
+                </div>    
+              </div>        
+            </div>
+        </div>
+        <div class="two-columns">
+            <div class="left-column">
+                <div class="left"><h2>Contacts</h2>
+                    <ul class="icon">
+                        <li class="location"><p>Minsk, Belarus</p></li>
+                        <li class="phone"><p>Phone: <a href="tel:+375293534027">+375 29 353-40-27</a></p></li>
+                        <li class="e-mail"><p>E-mail: <a href="mailto:Egorius41@mail.ru">Egorius41@mail.ru</a></p></li>
+                        <li class="github"><p>GitHub: <a href="https://github.com/Exallot">Exallot</a></p></li>
+                        <li class="telegram"><p>Telegram: <a href="https://t.me/Exallot">@Exallot</a></p></li>
+                        <li class="discord"><p>Discord: Exallot#7683</p></li>
+                    </ul>
+                   <h2>Skills</h2>
+                    <ul>
+                        <li>HTML/CSS</li>
+                        <li>JavaScript</li>
+                        <li>PHP</li>
+                        <li>Git/GitHub</li>
+                        <li>SQL (MySQL, SQL Server, Oracle)</li>
+                        <li>UML</li>
+                    </ul>
+                    <a class="rss" href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="rss school"></a>           
+                </div>            
+            </div>
+            <div class="right-column">
+                    <div class="right"><h2> About Me</h2>
+                    <p>I am a attentive, hard-working, stress-resistant and motivated to become a front-end developer.
+                        I’m ready to compete, work on mistakes and learn from experience.</p>
+                    <h2>Education</h2>
+                        <p><strong>Belarusian State University of Informatics and Radioelectronics</strong><br>
+                        Information Technologies and Control Faculty<br>
+                        Department of Information Technology automated systems<br>
+                        Years: 2016-2020<br>    
+                        Specialization: Automated Data Processing Systems</p>
+                    <h2>Work experience</h2>
+                        <p>Development of web applications as part of term papers.</p>
+                <section class="code section"><h2>Code Examples</h2>
+<pre><code><span class="func">function</span> Calc(value){
+    <span class="var">var</span> decrementIndex=value.toString().indexOf('--');
+    <span class="var">var</span> incrementIndex=value.toString().indexOf('++');
+        <span class="if">if</span>(decrementIndex!==-1){
+            <span class="var">var</span> num=value.replace('--','');
+            <span class="if">return</span> parseInt(num)-1;
+        }
+        <span class="if">else if</span>(incrementIndex!==-1){
+            <span class="var">var</span> num=value.replace('++','');
+            <span class="if">return</span> parseInt(num)+1;
+        }
+        <span class="if">else return</span> eval(value);
+        }</code></pre>
+                </section>
+                    <h2>Languages</h2>
+                    <ul>
+                        <li>Russian - native speaker.</li>
+                        <li>English - A2 (B1 in process…)</li>
+                    </ul>
+                    </div>
+            </div>        
+        </div>
+    </div>
+</body>
+</html>
