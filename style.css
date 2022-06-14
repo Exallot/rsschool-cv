@@ -1,0 +1,224 @@
+body{
+  margin: 0;
+  }
+
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .section-profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0px 30px 35px;
+    border-bottom: 10px solid rgb(0, 223, 223);
+  }
+
+  .section-profile-logo {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    filter: grayscale(0.2) brightness(1.05);
+    transition: .3s;
+  }
+
+  .section-profile-logo:hover {
+    filter: none;
+  }
+
+  .section-profile-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+   
+  }
+
+  .first-title{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150%;
+    text-align: left;
+  }
+
+  .second-title{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150%;
+    text-align: right;
+  }
+
+  .section-subtitle {
+    margin-top: 10px;
+    color: #5c5c5c;
+    line-height: 50px;
+    font-weight: 300;
+    letter-spacing: 2px;
+  }
+
+  .container {
+    margin: 0px auto;
+    width: 1024px;
+    font-family: "Cabin", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+  }
+
+  .two-columns {
+    display: flex;
+    background-color: #ffffff;
+  }
+
+  .right-column {
+    margin: 0px;
+    width: 70%;
+    padding: 10px;
+  }
+
+  .left-column {
+    margin: 0px;
+    padding: 10px;
+    width: 30%;
+    border-right: 5px solid rgb(0, 223, 223);
+  }
+
+  ul.icon {
+    list-style-type: none;
+}
+
+  ul.icon li {
+    text-indent: -1.4em;
+}
+
+  ul.icon li:before{
+    font-family: bullets;
+    content: url("assets/icon/404.png");
+    float: left;
+    width: 2.0em;
+}
+
+  ul.icon li.location:before { content: url("assets/icon/location.png"); }
+  ul.icon li.phone:before { content: url("assets/icon/phone-call.png"); }
+  ul.icon li.e-mail:before { content: url("assets/icon/mail.png"); }
+  ul.icon li.github:before { content: url("assets/icon/github.png"); }
+  ul.icon li.telegram:before { content: url("assets/icon/telegram.png"); }
+  ul.icon li.discord:before { content: url("assets/icon/discord.png"); }
+
+  .left h2 {
+    display: inline-block;
+    margin: 0px 20%;    
+    margin-bottom: 0;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    padding: .5rem 1.5rem;
+    border: .125rem solid rgb(0, 223, 223);
+    color: rgb(0, 223, 223);
+    
+  }
+  
+  .right h1 {
+    position: relative;
+    display: inline-block;
+    padding: 0px 42%;
+    border-bottom: .125rem solid rgb(0, 223, 223);
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(0, 223, 223);
+  }
+  .right h1::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -1.25rem;
+    transform: translateX(-50%);
+    border-top: 1.25rem solid rgb(0, 223, 223);
+    border-left: 1.25rem solid transparent;
+    border-right: 1.25rem solid transparent;
+  }
+  .right h1::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -1.125rem;
+    transform: translateX(-50%);
+    border-top: 1.25rem solid #ffffff;
+    border-left: 1.25rem solid transparent;
+    border-right: 1.25rem solid transparent;
+  }
+
+  .right h2 {
+    position: relative;
+    padding-bottom: .5rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(0, 223, 223);
+  }
+  .right h2::before {
+    content: "";
+    position: absolute;
+    border-bottom: 2px solid rgb(0, 223, 223);
+    bottom: .25rem;
+    left: 50%;
+    width: 30%;
+    transform: translateX(-50%);
+  }
+  .right h2::after {
+    content: "";
+    position: absolute;
+    border-bottom: 2px solid rgb(0, 223, 223);
+    bottom: 0;
+    left: 50%;
+    width: 15%;
+    transform: translateX(-50%);
+ }
+.right p{
+  font-family: Georgia, 'Eras Medium ITC', sans-serif;
+}
+  pre {
+    padding: 5px;
+    background-color: #c0cee2;
+}
+
+.func {
+    color: #8854d0;
+    font-weight: 700;
+}
+.if {
+    color: green;
+    font-weight: 700;
+}
+.var {
+  color: blue;
+}
+
+.three-columns {
+  display: flex;
+  background-color: #ffffff;
+}
+
+.three-columns1 {
+  margin: 0px;
+  padding: 10px;
+  width: 33%;
+  border-top: 5px solid rgb(0, 223, 223);
+  }
+
+.three-columns2 {
+  margin: 0px;
+  width: 33%;
+  border-top: 5px solid rgb(0, 223, 223);
+  text-align: center;
+}
+
+.three-columns3 {
+  margin: 0px;
+  text-align: right;
+  width: 33%;
+  border-top: 5px solid rgb(0, 223, 223);
+}
